@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+/**
+ * nmterm - a wicd-curses-like interface for NetworkManager
+ * Copyright (c) 2014, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/chjj/nmterm
+ */
+
+var nmterm = require('../');
+
+nmterm.start(function(err) {
+  if (err) {
+    console.error(err.message);
+    return process.exit(1);
+  }
+  return process.exit(0);
+});

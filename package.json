@@ -1,0 +1,22 @@
+{
+  "name": "nmterm",
+  "description": "A wicd-curses-like interface for NetworkManager",
+  "author": "Christopher Jeffrey",
+  "version": "0.0.0",
+  "main": "./lib/nmterm.js",
+  "bin": "./bin/nmterm",
+  "man": "./man/nmterm.1",
+  "preferGlobal": true,
+  "repository": "git://github.com/chjj/nmterm.git",
+  "homepage": "https://github.com/chjj/nmterm",
+  "bugs": { "url": "http://github.com/chjj/nmterm/issues" },
+  "license": "MIT",
+  "keywords": ["network", "manager", "networkmanager"],
+  "tags": ["network", "manager", "networkmanager"],
+  "dependencies": {
+    "blessed": "0.0.37"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
